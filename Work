@@ -1,0 +1,13 @@
+from tkinter import *
+
+def quit():
+    root.destroy()
+
+
+def main():
+    global root
+    root = Tk()
+    Button(root, text+"Quit", command=quit).pack()
+    root.mainloop()
+
+main()
